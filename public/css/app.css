@@ -1,0 +1,37 @@
+* {
+  font-family: Nunito, sans-serif;
+}
+
+p {
+  margin: 6px 0;
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.header li {
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.header li:hover {
+  text-decoration: underline;
+}
+
+.header li:first-child {
+  font-weight: bold;
+}
+
